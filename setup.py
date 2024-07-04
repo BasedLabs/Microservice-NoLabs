@@ -3,7 +3,7 @@ from distutils.core import setup
 setup(
     packages=['microservice'],
     name='microservice-NoLabs',
-    version='1.0.4',
+    version='1.0.5',
     license='MIT',
     description='NoLabs microservice mixins',
     author='Igor Bruev',  # Type in your name

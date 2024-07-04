@@ -3,7 +3,7 @@ from multiprocessing import shared_memory, Lock
 from typing import Optional
 from uuid import UUID
 
-from microservice.exceptions import MicroserviceException
+from .exceptions import MicroserviceException
 
 
 class SharedMemoryManager:

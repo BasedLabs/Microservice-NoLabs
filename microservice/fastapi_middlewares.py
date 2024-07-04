@@ -3,8 +3,8 @@ from typing import Dict, Type
 from fastapi import FastAPI, Request
 from fastapi.responses import JSONResponse
 
-from exceptions import MicroserviceException
-from microservice.shared import AlreadyRunningException
+from .exceptions import MicroserviceException
+from .shared import AlreadyRunningException
 
 
 def add_domain_exception_middleware(app: FastAPI, exception_code_mapping: Dict[Type[MicroserviceException], int]):
